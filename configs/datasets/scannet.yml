@@ -1,0 +1,9 @@
+dataset_configs:
+  name: "scannet_dataset"
+  batch_size: 20 # necessary
+  num_workers: 8
+
+  path: "./data/ScanNet"
+  list_path: "./src/lists/scannet/"
+  height: 256
+  width: 256

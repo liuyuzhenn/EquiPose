@@ -1,0 +1,16 @@
+model_configs:
+  HEAD:
+    ADD_BASIS: true
+    AVG_POOL: true
+    TYPE: DirectDeepResBlockMLP
+  aggregator:
+    MAX_SCORE_CHANNEL: true
+    POSITION_ENCODER: true
+    TYPE: CorrelationVolumeWarping
+  encoder:
+    block: 1
+    not_concat: false
+    num_blocks: 3-3-3
+    num_out_layers: 32
+    type: resunet
+  name: mapfree

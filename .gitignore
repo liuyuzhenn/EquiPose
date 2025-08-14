@@ -1,0 +1,5 @@
+/outputs
+/weights*
+/data
+__pycache__
+/tools

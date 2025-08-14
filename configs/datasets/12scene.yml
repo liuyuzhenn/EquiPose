@@ -1,0 +1,9 @@
+dataset_configs:
+  name: "scene12_dataset"
+  batch_size: 20 # necessary
+  num_workers: 8
+
+  path: "./data/12Scene"
+  list_path: "./src/lists/scene12/"
+  height: 256
+  width: 256

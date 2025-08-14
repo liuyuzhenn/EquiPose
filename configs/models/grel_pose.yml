@@ -1,0 +1,4 @@
+model_configs:
+  name: grel_pose
+  equivariance_mode: false
+  rotation_mode: '6D'
